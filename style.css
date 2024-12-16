@@ -1,0 +1,56 @@
+html, body{
+  height:100%;
+  font-family:Lota;
+  margin:0 auto;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+.container{
+  display:flex;
+}
+.column{
+  flex-direction:column;
+}
+nav a{
+  flex:1;
+  text-align:center;
+  padding:10px;
+  font-size: 20px;
+}
+nav a:hover{
+  background-color:blue;
+  font-size: 20px;
+  color:white;
+  transition:2s;
+}
+ 
+#banner{
+  align-items: center;  
+  background-color:black;
+  color:white;
+  padding:5px;
+  font-size: 20px;
+}
+#body{
+  padding:50px;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+}
+#links{
+  padding:18px;
+}
+#links *{
+  border: 1px solid black;
+  margin:5px;
+}
+
+#footer{
+  background-color:black;
+  color:white;
+  padding:5px;
+  justify-content: center;
+  align-items:center;
+}
